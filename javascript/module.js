@@ -1,4 +1,5 @@
 require(['jquery'], function($) {
+    $(".accordion-section").hide();
     $(".topics li").click(function(e) {
         e.stopPropagation();
         $(".accordion-section").hide();
